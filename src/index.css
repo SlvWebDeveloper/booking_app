@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import "tailwindcss";
+
+* {
+  font-family: Outfit;
+}
+
+.hide-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+@media screen and (min-width: 900px) {
+  .gradient {
+    background: #000000;
+    background: -webkit-linear-gradient(90deg, rgb(0, 0, 0) 3%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 1) 95%);
+    background: -moz-linear-gradient(90deg, rgb(0, 0, 0) 3%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 1) 95%);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 3%, rgba(0, 0, 0, 0.1) 50%, rgba(0, 0, 0, 1) 95%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000", endColorstr="#000000", GradientType=1);
+  }
+}
